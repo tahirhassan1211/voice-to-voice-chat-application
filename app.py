@@ -6,6 +6,7 @@ import uuid
 import tempfile
 import requests
 
+
 # Load the Whisper model (small or base for performance)
 whisper_model = whisper.load_model("base")
 
